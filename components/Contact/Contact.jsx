@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Contact() {
 	return (
-		<div className="home-page-header-margin page-content">
+		<div className="header-margin page-content">
 			<h2>Contact Me</h2>
 			<p className="pt-4 pb-4">
 				Hello, I am interested in speaking with you. Please fill out the form
-				below to get in touch with me
+				below to get in touch with me.
 			</p>
 			<div>
 				<form

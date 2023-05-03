@@ -109,7 +109,7 @@ nav {
 
 /* home page section header margins */
 
-.home-page-header-margin {
+.header-margin {
 	margin-top: 7.5rem;
 }
 
@@ -165,4 +165,14 @@ form {
 
 form input {
 	padding: 0.5rem;
+}
+
+/* about section css */
+
+.myProgress {
+	background-color: var(--grayColor);
+}
+
+.progress-bar {
+	height: 10px;
 }

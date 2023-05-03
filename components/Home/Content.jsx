@@ -5,7 +5,7 @@ export default function Content() {
 	return (
 		<div className="d-flex flex-column justify-content-center page-content">
 			<div>
-				<div className="home-page-header-margin">
+				<div className="header-margin">
 					<h1>
 						Hi <br /> I am Cory <br /> A Full Stack Developer{" "}
 					</h1>
@@ -32,7 +32,7 @@ export default function Content() {
 						</Link>
 					</button>
 				</div>
-				<div className="home-page-header-margin">
+				<div className="header-margin">
 					<h2 className="pt-2">About Me</h2>
 					<div className="mt-5 text-start w-50">
 						<p>
@@ -48,7 +48,7 @@ export default function Content() {
 						<h3 className="font-cursive pt-3 pb-3">Cory W Cox</h3>
 					</div>
 				</div>
-				<div className="home-page-header-margin">
+				<div className="header-margin">
 					<h2>Projects</h2>
 					<div className="project-list pt-3">
 						<ul className="projects-list pt-3">
@@ -107,7 +107,7 @@ export default function Content() {
 						</div>
 					</div>
 				</div>
-				<div className="home-page-header-margin">
+				<div className="header-margin">
 					<h2>Contact Me</h2>
 					<div>
 						<form
