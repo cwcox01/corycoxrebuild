@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect } from "react";
+import Link from "next/link";
 
 // importing smaller components
 import Skill from "./Skill";
@@ -30,6 +30,18 @@ export default function About() {
 				<h2 className="pt-2">Skills</h2>
 				<div>
 					<Skill />
+				</div>
+				<div className="pb-5">
+					<button>
+						<Link href="/contact" className="text-decoration-none text-white">
+							Contact Me
+						</Link>
+					</button>
+					<button className="ms-5">
+						<Link href="/projects" className="text-decoration-none text-white">
+							Projects
+						</Link>
+					</button>
 				</div>
 			</div>
 		</div>

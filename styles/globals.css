@@ -176,3 +176,11 @@ form input {
 .progress-bar {
 	height: 10px;
 }
+
+/* about skills section grid styling */
+
+.all-skills {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 3rem;
+}
