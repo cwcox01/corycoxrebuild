@@ -65,6 +65,50 @@ img {
 	margin-left: 265px;
 }
 
+/* page section header margins */
+
+.header-margin {
+	margin-top: 7.5rem;
+}
+
+/* project list styling on home page and projects page */
+
+.project-list ul {
+	border-top: 0.25rem var(--sectionHeaderColor) solid;
+	border-left: 0.25rem var(--sectionHeaderColor) solid;
+	width: 15%;
+	border-radius: 4px;
+}
+
+.projects-list li {
+	list-style-type: circle;
+	padding-bottom: 0.75rem;
+}
+
+.projects-list a {
+	color: var(--whiteColor);
+	border-bottom: 3px var(--grayColor) solid;
+}
+
+.projects-list a:hover {
+	font-size: 1.1rem;
+}
+
+/* home and contact page contact form styling */
+
+form input,
+textarea {
+	margin-left: 1rem;
+}
+
+form {
+	padding: 0.5rem;
+}
+
+form input {
+	padding: 0.5rem;
+}
+
 /* navbar styling */
 
 .side-bar-nav {
@@ -107,13 +151,7 @@ nav {
 
 /* home page styling */
 
-/* home page section header margins */
-
-.header-margin {
-	margin-top: 7.5rem;
-}
-
-/* skill list css */
+/* skill list styling home page */
 
 .split-list-home {
 	display: grid;
@@ -127,44 +165,6 @@ nav {
 	page-break-inside: avoid;
 	margin-bottom: 10px;
 	list-style-type: circle;
-}
-
-/* project list styling on home page */
-
-.project-list ul {
-	border-top: 0.25rem var(--sectionHeaderColor) solid;
-	border-left: 0.25rem var(--sectionHeaderColor) solid;
-	width: 15%;
-	border-radius: 4px;
-}
-
-.projects-list li {
-	list-style-type: circle;
-	padding-bottom: 0.75rem;
-}
-
-.projects-list a {
-	color: var(--whiteColor);
-	border-bottom: 3px var(--grayColor) solid;
-}
-
-.projects-list a:hover {
-	font-size: 1.1rem;
-}
-
-/* home page contact form */
-
-form input,
-textarea {
-	margin-left: 1rem;
-}
-
-form {
-	padding: 0.5rem;
-}
-
-form input {
-	padding: 0.5rem;
 }
 
 /* about section css */
@@ -183,4 +183,36 @@ form input {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 3rem;
+}
+
+/* projects page styling */
+
+.project-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+	margin: 20px;
+}
+
+.project {
+	background-color: black;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+.project p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.project a {
+	display: block;
+	background-color: var(--jetBlackColor);
+	padding: 5px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.project a:hover {
+	background-color: #444;
 }
