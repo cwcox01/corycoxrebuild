@@ -14,6 +14,11 @@ export default function Skill() {
 				/>
 				<SkillItem skillText="CSS" skillColor="yellow" skillPercentage="78%" />
 				<SkillItem skillText="Python" skillColor="teal" skillPercentage="85%" />
+				<SkillItem
+					skillText="Git"
+					skillColor="dodgerblue"
+					skillPercentage="90%"
+				/>
 			</div>
 			<div>
 				<SkillItem
@@ -31,6 +36,11 @@ export default function Skill() {
 					skillColor="teal"
 					skillPercentage="80%"
 				/>
+				<SkillItem
+					skillText="GitHub"
+					skillColor="dodgerblue"
+					skillPercentage="85%"
+				/>
 			</div>
 			<div>
 				<SkillItem
@@ -44,6 +54,11 @@ export default function Skill() {
 					skillPercentage="88%"
 				/>
 				<SkillItem skillText="NodeJS" skillColor="teal" skillPercentage="86%" />
+				<SkillItem
+					skillText="Version Control"
+					skillColor="dodgerblue"
+					skillPercentage="80%"
+				/>
 			</div>
 		</div>
 	);

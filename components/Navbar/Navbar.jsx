@@ -9,12 +9,14 @@ export default function Navbar() {
 		<div className="d-flex text-center side-bar-nav">
 			<div className="d-flex text-center side-bar-nav justify-content-center flex-column ps-1 align-items-center nav-text">
 				<div>
-					<Image
-						src="/img/favicon.svg"
-						alt="Cory Cox Icon"
-						height={130}
-						width={130}
-					/>
+					<Link href="/">
+						<Image
+							src="/img/favicon.svg"
+							alt="Cory Cox Icon"
+							height={130}
+							width={130}
+						/>
+					</Link>
 				</div>
 				<div className="pt-3">
 					<h3 className="mb-0">Cory Cox</h3>
@@ -70,7 +72,7 @@ export default function Navbar() {
 							<li className="pt-2 pb-2">
 								<Link
 									className="text-decoration-none"
-									href="#"
+									href="/about"
 									rel="noreferrer">
 									About
 								</Link>
@@ -78,7 +80,7 @@ export default function Navbar() {
 							<li className="pt-2 pb-2">
 								<Link
 									className="text-decoration-none"
-									href="#"
+									href="/projects"
 									rel="noreferrer">
 									Projects
 								</Link>
