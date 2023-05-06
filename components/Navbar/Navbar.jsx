@@ -1,6 +1,9 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
+
+// importing smaller navbar components
+import NavbarImage from "./NavbarImage";
+import NavbarSocial from "./NavbarSocial";
 
 export default function Navbar() {
 	const today = new Date();
@@ -8,56 +11,8 @@ export default function Navbar() {
 	return (
 		<div className="d-flex text-center side-bar-nav">
 			<div className="d-flex text-center side-bar-nav justify-content-center flex-column ps-1 align-items-center nav-text">
-				<div>
-					<Link href="/">
-						<Image
-							src="/img/favicon.svg"
-							alt="Cory Cox Icon"
-							height={130}
-							width={130}
-						/>
-					</Link>
-				</div>
-				<div className="pt-3">
-					<h3 className="mb-0">Cory Cox</h3>
-					<p>Full Stack Developer</p>
-					<div>
-						<ul className="social-nav d-flex ps-0 justify-content-center">
-							<li>
-								<Link
-									href="https://github.com/cwcox01"
-									target="_blank"
-									rel="noreferrer">
-									<i className="fa fa-github fa-xl" aria-hidden="true"></i>
-								</Link>
-							</li>
-							<li className="ps-3">
-								<Link
-									href="https://www.linkedin.com/in/corywcox"
-									target="_blank"
-									rel="noreferrer">
-									<i className="fa fa-linkedin fa-xl" aria-hidden="true"></i>
-								</Link>
-							</li>
-							<li className="ps-3">
-								<Link
-									href="https://www.instagram.com/ugotcced/"
-									target="_blank"
-									rel="noreferrer">
-									<i className="fa fa-instagram fa-xl" aria-hidden="true"></i>
-								</Link>
-							</li>
-							<li className="ps-3">
-								<Link
-									href="https://www.facebook.com/cwcox01"
-									target="_blank"
-									rel="noreferrer">
-									<i className="fa fa-facebook fa-xl" aria-hidden="true"></i>
-								</Link>
-							</li>
-						</ul>
-					</div>
-				</div>
+				<NavbarImage />
+				<NavbarSocial />
 				<div className="nav-top-div d-flex text-start pt-3">
 					<nav>
 						<ul className="ps-0">

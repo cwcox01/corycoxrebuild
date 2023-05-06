@@ -6,6 +6,7 @@ import ProjectListItem from "./ProjectListItem";
 export default function ProjectList() {
 	return (
 		<div className="project-list pt-3">
+			<h2 className="pt-2 pb-2">Projects</h2>
 			<ul className="projects-list pt-3">
 				<ProjectListItem
 					projectListText="Cubs Play Today"
