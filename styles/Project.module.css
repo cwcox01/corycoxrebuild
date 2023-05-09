@@ -29,3 +29,12 @@
 .project a:hover {
 	background-color: #444;
 }
+
+/* project page styling responsive settings */
+
+@media (max-width: 767px) {
+	.project-container {
+		display: flex;
+		flex-direction: column;
+	}
+}

@@ -14,7 +14,7 @@ export default function ProjectList() {
 				/>
 				<ProjectListItem
 					projectListText="Cory Cox"
-					projectListUrl="https://corycox.com"
+					projectListUrl="https://cory-cox-cwcox01.vercel.app/"
 				/>
 				<ProjectListItem
 					projectListText="Tools List"

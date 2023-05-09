@@ -20,7 +20,7 @@ export default function Document() {
 				async
 				crossOrigin="anonymous"></script>
 			<Head />
-			<body>
+			<body className="no-scroll">
 				<Main />
 				<NextScript />
 			</body>

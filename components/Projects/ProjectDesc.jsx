@@ -19,7 +19,7 @@ export default function ProjectDesc() {
 				/>
 				<ProjectDescItem
 					projectHeaderText="Cory Cox"
-					projectSiteUrl="https://corycox.com"
+					projectSiteUrl="https://cory-cox-cwcox01.vercel.app/"
 					projectGitUrl="https://github.com/cwcox01/cory-cox"
 					projectDescription="This project was a project for a CV resume I originally built.  Website was deployed on Vercel and built with HTML, CSS, JS and using NextJS."
 				/>
@@ -34,6 +34,12 @@ export default function ProjectDesc() {
 					projectSiteUrl="https://charming-puffpuff-74fa3a.netlify.app/"
 					projectGitUrl="https://github.com/cwcox01/wolverines-corner"
 					projectDescription="A Michigan Wolverine fan page built with ReactJS library.  Also, HTML, CSS and JS programming languages were used to build this website.  Website was also deployed with Netlify."
+				/>
+				<ProjectDescItem
+					projectHeaderText="Open Source Commits"
+					projectSiteUrl="https://github.com/cwcox01/opensource"
+					projectGitUrl="https://github.com/cwcox01/opensource"
+					projectDescription="A GitHub folder for various open source commits  I have committed.  I built all of these commits using HTML, CSS and JS."
 				/>
 			</div>
 		</div>
