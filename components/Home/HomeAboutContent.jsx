@@ -18,7 +18,9 @@ export default function HomeAboutContent() {
 							Development. As I have experience with ReactJS, NextJS and Django.
 							Also, I have knowledge with Mongo DB and databases."
 				/>
-				<h3 className="font-cursive pt-3 pb-3">Cory W Coxdfgdfgdf</h3>
+				<h3 className="font-cursive pt-3 pb-3">
+					Cory W Coxdfgdfgdfsdfsdfdsfdsffadsf
+				</h3>
 			</div>
 		</div>
 	);
