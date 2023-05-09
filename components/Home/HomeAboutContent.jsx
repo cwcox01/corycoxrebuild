@@ -7,7 +7,7 @@ export default function HomeAboutContent() {
 	return (
 		<div className="header-margin">
 			<h2 className="pt-2">About Me</h2>
-			<div className="mt-5 text-start w-50">
+			<div className="mt-5 text-start about-text">
 				<AboutContentItem
 					aboutItemText="Hello, my name is Cory. I have a degree in Computer and
 							Information Technology and also 6 years of experience in the

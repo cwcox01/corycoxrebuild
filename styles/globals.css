@@ -149,70 +149,125 @@ nav {
 	font-size: 0.75rem;
 }
 
-/* home page styling */
+/* about paragraph text affecting home page and about page */
 
-/* skill list styling home page */
-
-.split-list-home {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 0;
+.about-text {
+	width: 50%;
 }
 
-.split-list-home li {
-	break-inside: avoid;
-	-webkit-column-break-inside: avoid;
-	page-break-inside: avoid;
-	margin-bottom: 10px;
-	list-style-type: circle;
-}
+/* global site media query */
 
-/* about section css */
+@media (max-width: 767px) {
+	/* body, misc elements and common classes responsive styling */
 
-.myProgress {
-	background-color: var(--grayColor);
-}
+	body {
+		padding: 1.5rem 1.5rem;
+	}
 
-.progress-bar {
-	height: 10px;
-}
+	h1,
+	h2 {
+		font-size: 2rem;
+	}
 
-/* about skills section grid styling */
+	.page-content {
+		margin-left: 1rem;
+	}
 
-.all-skills {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	column-gap: 3rem;
-}
+	.header-margin {
+		margin-top: 3.5rem;
+	}
 
-/* projects page styling */
+	/* START ALL RESPONSIVE NAVBAR STYLING */
+	/* responsive nav bar styling */
 
-.project-container {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 10px;
-	margin: 20px;
-}
+	.side-bar-nav {
+		width: 100vw;
+		border: none;
+		background-color: var(--grayNavBackgroundColor);
+		visibility: hidden;
+	}
 
-.project {
-	background-color: black;
-	padding: 20px;
-	border-radius: 30px;
-}
+	/* responsive hamburger menu styling */
 
-.project p {
-	font-size: 16px;
-	line-height: 1.5;
-}
+	.hamburger {
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin: 1rem;
+		width: 2rem;
+		height: 2rem;
+		background: transparent;
+		border: none;
+		cursor: pointer;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		padding: 0;
+		z-index: 3;
+	}
 
-.project a {
-	display: block;
-	background-color: var(--jetBlackColor);
-	padding: 5px;
-	border-radius: 10px;
-	margin-top: 10px;
-}
+	/* responsive hamburger menu span styling */
 
-.project a:hover {
-	background-color: #444;
+	.hamburger span {
+		width: 2rem;
+		height: 0.25rem;
+		background-color: #333;
+		border-radius: 10px;
+		transition: all 0.3s ease-in-out;
+		position: relative;
+		transform-origin: 1px;
+	}
+
+	/* navbar menu styling */
+
+	.navbar-list {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		height: 0;
+	}
+
+	.navbar-list li {
+		margin-bottom: 1rem;
+	}
+
+	/* Open menu styling */
+	.side-bar-nav.open {
+		background-color: var(--grayNavBackgroundColor);
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		visibility: visible;
+		z-index: 2;
+	}
+
+	/* footer navbar text styling */
+
+	.sidebar-footer-text {
+		margin-top: auto;
+		margin-bottom: 1rem;
+	}
+	/* END ALL RESPONSIVE NAVBAR STYLING */
+
+	/* about page responsive styling */
+
+	/* increasing width for home and about page paragraph tags responsive styling */
+
+	.about-text {
+		width: 95%;
+	}
+
+	/* home page and project list page responsive styling */
+
+	.project-list ul {
+		width: 75%;
+	}
+
+	/* responsive styling for creating padding on contact form */
+
+	.contact-form {
+		padding-top: 1rem;
+	}
 }

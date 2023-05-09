@@ -1,0 +1,26 @@
+/* about section css */
+
+.my-progress {
+	background-color: var(--grayColor);
+}
+
+.progress-bar {
+	height: 10px;
+}
+
+/* about skills section grid styling */
+
+.all-skills {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	column-gap: 3rem;
+}
+
+/* about section media query for responsive site */
+
+@media (max-width: 767px) {
+	.all-skills {
+		display: flex;
+		flex-direction: column;
+	}
+}

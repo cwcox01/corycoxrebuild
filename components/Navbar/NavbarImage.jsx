@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function NavbarImage() {
 	return (
-		<div>
+		<div className="pt-5 pb-3">
 			<Link href="/">
 				<Image
 					src="/img/favicon.svg"

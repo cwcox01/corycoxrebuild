@@ -1,5 +1,8 @@
 import React from "react";
 
+// importing About.module.css
+import styles from "/styles/About.module.css";
+
 // importing smaller component
 import SkillItem from "./SkillItem";
 import Button from "../Button/Button";
@@ -8,7 +11,7 @@ export default function Skill() {
 	return (
 		<div className="header-margin">
 			<h2 className="pt-2">Skills</h2>
-			<div className="pb-5 all-skills">
+			<div className={`pb-5 ${styles["all-skills"]}`}>
 				<div>
 					<SkillItem
 						skillText="HTML"
@@ -77,7 +80,9 @@ export default function Skill() {
 				</div>
 			</div>
 			<div className="pb-5">
-				<Button btnUrl="/contact" btnText="Contact Me" />
+				<div className="mb-3">
+					<Button btnUrl="/contact" btnText="Contact Me" />
+				</div>
 				<Button btnUrl="/projects" btnText="Projects" />
 			</div>
 		</div>

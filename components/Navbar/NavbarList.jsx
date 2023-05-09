@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 // importing smaller components
 import NavbarListItem from "./NavbarListItem";

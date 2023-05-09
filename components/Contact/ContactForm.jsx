@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactForm() {
 	return (
-		<div>
+		<div className="contact-form">
 			<form
 				method="POST"
 				name="contact"

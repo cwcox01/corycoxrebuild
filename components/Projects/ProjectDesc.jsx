@@ -1,5 +1,8 @@
 import React from "react";
 
+// importing Project.module.css
+import styles from "/styles/Project.module.css";
+
 // importing smaller component
 import ProjectDescItem from "./ProjectDescItem";
 
@@ -7,7 +10,7 @@ export default function ProjectDesc() {
 	return (
 		<div className="header-margin">
 			<h2 className="pt-2"> Project Descriptions</h2>
-			<div className="project-container ms-0 pt-2">
+			<div className={`ms-0 pt-2 ${styles["project-container"]}`}>
 				<ProjectDescItem
 					projectHeaderText="Cubs Play Today"
 					projectSiteUrl="https://cubsplaytoday.com"

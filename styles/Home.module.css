@@ -1,0 +1,15 @@
+/* skill list styling home page */
+
+.splitListHome {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 0;
+}
+
+.splitListHome li {
+	break-inside: avoid;
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	margin-bottom: 10px;
+	list-style-type: circle;
+}

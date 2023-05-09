@@ -1,6 +1,9 @@
 import React from "react";
 import Link from "next/link";
 
+// importing Project.module.css file
+import styles from "/styles/Project.module.css";
+
 export default function ProjectDescItem({
 	projectHeaderText,
 	projectDescription,
@@ -8,7 +11,7 @@ export default function ProjectDescItem({
 	projectSiteUrl,
 }) {
 	return (
-		<div className="project mt-3">
+		<div className={`mt-3 ${styles["project"]}`}>
 			<h5 className="pb-2">{projectHeaderText}</h5>
 			<p>{projectDescription}</p>
 			<Link
