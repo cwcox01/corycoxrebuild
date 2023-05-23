@@ -18,6 +18,8 @@ export default function HomeSkills() {
 				<HomeSkillItem homeSkillText="Django" />
 				<HomeSkillItem homeSkillText="ReactJS" />
 				<HomeSkillItem homeSkillText="Bootstrap" />
+				<HomeSkillItem homeSkillText="NextJS" />
+				<HomeSkillItem homeSkillText="NodeJS" />
 				<HomeSkillItem homeSkillText="Vercel" />
 				<HomeSkillItem homeSkillText="Git" />
 				<HomeSkillItem homeSkillText="Version Control" />
