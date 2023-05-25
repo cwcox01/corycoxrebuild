@@ -37,7 +37,7 @@ export default function ProjectDesc() {
 				/>
 				<ProjectDescItem
 					projectHeaderText="Open Source Commits"
-					projectSiteUrl="https://github.com/cwcox01/opensource"
+					projectSiteUrl="https://taupe-biscochitos-02fdb4.netlify.app/"
 					projectGitUrl="https://github.com/cwcox01/opensource"
 					projectDescription="A GitHub folder for various open source commits  I have committed.  I built all of these commits using HTML, CSS and JS."
 				/>

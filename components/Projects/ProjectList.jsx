@@ -26,7 +26,7 @@ export default function ProjectList() {
 				/>
 				<ProjectListItem
 					projectListText="Open Source"
-					projectListUrl="https://github.com/cwcox01/opensource"
+					projectListUrl="https://taupe-biscochitos-02fdb4.netlify.app/"
 				/>
 			</ul>
 		</div>
