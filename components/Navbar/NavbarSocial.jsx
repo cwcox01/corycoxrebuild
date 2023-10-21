@@ -7,7 +7,7 @@ export default function NavbarSocial() {
 	return (
 		<div className="pt-3">
 			<h3 className="mb-0">Cory Cox</h3>
-			<p>Full Stack Developer</p>
+			<p>Technical Support Engineer</p>
 			<NavbarSocialList />
 		</div>
 	);
