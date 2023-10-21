@@ -23,6 +23,8 @@ export default function HomeSkills() {
 				<HomeSkillItem homeSkillText="Vercel" />
 				<HomeSkillItem homeSkillText="Git" />
 				<HomeSkillItem homeSkillText="Version Control" />
+				<HomeSkillItem homeSkillText="SQL" />
+				<HomeSkillItem homeSkillText="Salesforce CRM" />
 			</ul>
 		</div>
 	);

@@ -33,6 +33,11 @@ export default function Skill() {
 						skillColor="dodgerblue"
 						skillPercentage="90%"
 					/>
+					<SkillItem
+						skillText="SQL"
+						skillColor="yellow"
+						skillPercentage="98%"
+					/>
 				</div>
 				<div>
 					<SkillItem
@@ -55,6 +60,11 @@ export default function Skill() {
 						skillColor="dodgerblue"
 						skillPercentage="85%"
 					/>
+					<SkillItem
+						skillText="Salesforce CRM"
+						skillColor="yellow"
+						skillPercentage="58%"
+					/>
 				</div>
 				<div>
 					<SkillItem
@@ -76,6 +86,11 @@ export default function Skill() {
 						skillText="Version Control"
 						skillColor="dodgerblue"
 						skillPercentage="80%"
+					/>
+					<SkillItem
+						skillText="Slack"
+						skillColor="yellow"
+						skillPercentage="88%"
 					/>
 				</div>
 			</div>
